@@ -73,4 +73,7 @@ public class Etage extends Constantes {
 	return poissonFrequenceArrivee.suivant();
     }
 
+    public Immeuble immeuble() {
+    	return this.immeuble;
+    }
 }

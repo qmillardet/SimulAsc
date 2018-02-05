@@ -19,9 +19,9 @@ public class EvenementPassageCabinePalier extends Evenement {
         Cabine cabine = immeuble.cabine;
         assert !cabine.porteOuverte;
         assert etage.numero() != cabine.etage.numero();
-	cabine.etage = etage;
+    	cabine.etage = etage;
 
-	notYetImplemented();
+    	cabine.calculerMouvement(date, echeancier);
 	
         assert !cabine.porteOuverte;
     }
