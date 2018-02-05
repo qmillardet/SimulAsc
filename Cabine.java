@@ -62,7 +62,8 @@ public class Cabine extends Constantes {
     		if (destinations.contains(etage)) {
     			destinations.remove(etage);
     			status = '-';
-    			//prendre passager
+    			// Ouverture porte cabine
+    			
     			calculerMouvement(date, echeancier);
     			//Constantes.notYetImplemented ();
     		} else {
@@ -71,4 +72,15 @@ public class Cabine extends Constantes {
 	    	}
     	}
     }
+    
+    public boolean ajouterPersonneCabinne(Passager p, Echeancier echeancier)(
+        asser p != null : "Passager entrant null";
+        int i = 0;
+        while (this.tabPassager[i] != null && i<this.tabPassager.length){
+            i++;
+        }
+        assert i == this.length -1;
+        this.tableauPassager[i] = p;
+        return true;
+    )
 }
