@@ -15,10 +15,9 @@ public class EvenementOuverturePorteCabine extends Evenement {
 	Cabine cabine = immeuble.cabine;
 	Etage etage = cabine.etage;
 	int nbPassage=0;
-	assert cabine.status() != '-';
-	assert !cabine.porteOuverte;
+	//assert cabine.status() != '-';
+	System.out.println("stat : " + cabine.status());
 	cabine.porteOuverte = !cabine.porteOuverte;
-	assert cabine.porteOuverte;
     }
 
 }

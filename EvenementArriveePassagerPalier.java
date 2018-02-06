@@ -23,6 +23,7 @@ public class EvenementArriveePassagerPalier extends Evenement {
 		
 		immeuble.cabine.appeler(etageDeDepart, date, echeancier);
 		echeancier.ajouter(new EvenementArriveePassagerPalier(this.date + this.etageDeDepart.arriveeSuivant(), this.etageDeDepart));
+		this.etageDeDepart.ajouter(p);
     }
     
 }

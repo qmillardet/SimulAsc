@@ -63,7 +63,7 @@ public class Cabine extends Constantes {
     			destinations.remove(etage);
     			status = '-';
     			// Ouverture porte cabine
-    			
+    			echeancier.ajouter(new EvenementOuverturePorteCabine(date + Constantes.tempsPourOuvrirOuFermerLesPortes));
     			calculerMouvement(date, echeancier);
     			//Constantes.notYetImplemented ();
     		} else {
