@@ -73,14 +73,14 @@ public class Cabine extends Constantes {
     	}
     }
     
-    public boolean ajouterPersonneCabinne(Passager p, Echeancier echeancier)(
-        asser p != null : "Passager entrant null";
+    public boolean ajouterPersonneCabinne(Passager p, Echeancier echeancier){
+        assert p != null : "Passager entrant null";
         int i = 0;
-        while (this.tabPassager[i] != null && i<this.tabPassager.length){
+        while (this.tableauPassager[i] != null && i<this.tableauPassager.length){
             i++;
         }
-        assert i == this.length -1;
+        assert i == this.tableauPassager.length - 1;
         this.tableauPassager[i] = p;
         return true;
-    )
+    }
 }
