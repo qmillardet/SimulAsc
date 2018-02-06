@@ -17,10 +17,7 @@ public class EvenementOuverturePorteCabine extends Evenement {
 	int nbPassage=0;
 	assert cabine.status() != '-';
 	assert !cabine.porteOuverte;
-	cabine.porteOuverte = true;
-
-	notYetImplemented();
-
+	cabine.porteOuverte = !cabine.PorteOuverte;
 	assert cabine.porteOuverte;
     }
 
