@@ -46,18 +46,18 @@ public class Echeancier extends Constantes {
     }
 	
     public void decalerFPC(){
-	int index = 0;
-	while( true ){
-	    Evenement e = listeEvenements.get(index);
-	    if(e instanceof EvenementFermeturePorteCabine){
-		listeEvenements.remove(index);
-		EvenementFermeturePorteCabine eventFPC = (EvenementFermeturePorteCabine) e;
-		eventFPC.setDate(e.date + tempsPourOuvrirOuFermerLesPortes);
-		ajouter(eventFPC);
-		return;
-	    }
-	    index++;
-	}	
+    	int index = 0;
+    	while( true ){
+    	    Evenement e = listeEvenements.get(index);
+    	    if(e instanceof EvenementFermeturePorteCabine){
+        		listeEvenements.remove(index);
+        		EvenementFermeturePorteCabine eventFPC = (EvenementFermeturePorteCabine) e;
+        		eventFPC.setDate(e.date + tempsPourOuvrirOuFermerLesPortes);
+        		ajouter(eventFPC);
+        		return;
+            }
+            index++;
+	    }	
     }
     
 }

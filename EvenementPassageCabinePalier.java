@@ -17,11 +17,11 @@ public class EvenementPassageCabinePalier extends Evenement {
     
     public void traiter(Immeuble immeuble, Echeancier echeancier) {
         Cabine cabine = immeuble.cabine;
-        assert !cabine.porteOuverte;
-        assert etage.numero() != cabine.etage.numero();
     	cabine.etage = etage;
 
     	cabine.calculerMouvement(date, echeancier);
+    	immeuble.augmenterCumulTempsDeTransportDesPersonnesDansLaCabine(cabine.nbPassager()
+        );
 	
         assert !cabine.porteOuverte;
     }

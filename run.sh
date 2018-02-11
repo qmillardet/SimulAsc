@@ -3,7 +3,7 @@ ASSERTS=true
 RECOMPILE=true
 NOTYETIMPLEMENTED=true
 LIGNES=true
-IO=$(pwd)/IO
+IO=$(pwd)/../IO
 cd IO >& /dev/null || exit 1
 cd ${IO}/..
 ldir=""

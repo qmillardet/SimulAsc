@@ -76,4 +76,16 @@ public class Etage extends Constantes {
     public Immeuble immeuble() {
     	return this.immeuble;
     }
+    
+    public void supprimerPassagerEtage(Passager pass){
+        assert pass != null : "Passager supprimé null";
+        passagers.remove(pass);
+    }
+
+    public Passager reucpererPremierPassage(){
+    	if (!this.passagers.isEmpty()){
+			return passagers.get(0);
+		}
+		return null;
+	}
 }

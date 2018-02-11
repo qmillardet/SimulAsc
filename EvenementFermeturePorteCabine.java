@@ -15,10 +15,8 @@ public class EvenementFermeturePorteCabine extends Evenement {
 	Cabine cabine = immeuble.cabine;
 	assert cabine.porteOuverte;
 	cabine.porteOuverte = false;
-
-	notYetImplemented();
-
 	assert ! cabine.porteOuverte;
+	immeuble.augmenterCumulTempsDeTransportOuvertureOuFermetureCabine(cabine.nbPassager());
     }
 
     public void setDate(long d){

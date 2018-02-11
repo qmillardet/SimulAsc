@@ -89,5 +89,15 @@ public class Immeuble extends Constantes {
 	assert res == (etageLePlusHaut().numero() - etageLePlusBas().numero() + 1);
 	return res;
     }
-	
+
+    public void ajouterUnPassagerSorti(){
+    	this.nombreTotalDesPassagersSortis++;
+	}
+	public void augmenterCumulTempsDeTransportDesPersonnesDansLaCabine(int nbPassagerDansLaCabine){
+        this.cumulDesTempsDeTransport += nbPassagerDansLaCabine * Constantes.tempsPourBougerLaCabineDUnEtage;
+    }
+
+    public void augmenterCumulTempsDeTransportOuvertureOuFermetureCabine(int nbPassagerDansLaCabine){
+        this.cumulDesTempsDeTransport += nbPassagerDansLaCabine * Constantes.tempsPourOuvrirOuFermerLesPortes;
+    }
 }
