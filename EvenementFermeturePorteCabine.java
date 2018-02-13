@@ -17,6 +17,7 @@ public class EvenementFermeturePorteCabine extends Evenement {
 	cabine.porteOuverte = false;
 	assert ! cabine.porteOuverte;
 	immeuble.augmenterCumulTempsDeTransportOuvertureOuFermetureCabine(cabine.nbPassager());
+	cabine.calculerMouvement(date, echeancier);
     }
 
     public void setDate(long d){

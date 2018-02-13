@@ -65,9 +65,7 @@ public class Cabine extends Constantes {
                 destinations.remove(etage);
                 // Ouverture porte cabine
                 echeancier.ajouter(new EvenementOuverturePorteCabine(date + Constantes.tempsPourOuvrirOuFermerLesPortes));
-                this.calculerMouvement(date, echeancier);
                 this.liberePersonneCabine();
-                //Constantes.notYetImplemented ();
             } else {
                 status = destinations.peek().numero() > etage.numero() ? '^' : 'v';
                 echeancier.ajouter(new EvenementPassageCabinePalier(date + Constantes.tempsPourBougerLaCabineDUnEtage, etage.immeuble().etage(etage.numero() + (status == '^' ? 1 : -1))));
