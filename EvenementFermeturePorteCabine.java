@@ -2,26 +2,25 @@
 public class EvenementFermeturePorteCabine extends Evenement {
 
     // Instant précis où les portes terminent de se fermer.
-    
+
     public EvenementFermeturePorteCabine(long d) {
-	super(d);
+        super(d);
     }
 
     public void afficheDetails(Immeuble immeuble) {
-	System.out.print("FPC");
+        System.out.print("FPC");
     }
 
     public void traiter(Immeuble immeuble, Echeancier echeancier) {
-	Cabine cabine = immeuble.cabine;
-	assert cabine.porteOuverte;
-	cabine.porteOuverte = false;
-	assert ! cabine.porteOuverte;
-	immeuble.augmenterCumulTempsDeTransportOuvertureOuFermetureCabine(cabine.nbPassager());
-	cabine.calculerMouvement(date, echeancier);
+        Cabine cabine = immeuble.cabine;
+        assert cabine.porteOuverte;
+        cabine.porteOuverte = false;
+        assert ! cabine.porteOuverte;
+        cabine.calculerMouvement(date, echeancier);
     }
 
     public void setDate(long d){
-	this.date = d;
+        this.date = d;
     }
 
 }

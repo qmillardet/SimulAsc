@@ -30,6 +30,8 @@ public class Passager {
     public int numeroDestination() {
         return this.etageDestination.numero();
     }
+
+    public int tempsTransport;
     
     public Passager(long dateDeDepart, Etage etageDeDepart, Immeuble immeuble) {
         Etage niveauDuSol = immeuble.niveauDuSol();
@@ -47,6 +49,7 @@ public class Passager {
         } else {
             etageDestination = niveauDuSol;
         }
+        tempsTransport = 0;
     }
     
     private static int compteurGlobalDeCreationDesPassagers = 0;
@@ -74,5 +77,16 @@ public class Passager {
     public long tempstransport(long d) {
     	return d-this.dateDepart;
     }
-    
+
+    public void augmenterTempsArretEtageSansDescendre(){
+        tempsTransport += Constantes.tempsPourEntrerOuSortirDeLaCabine*2 + Constantes.tempsPourEntrerOuSortirDeLaCabine;
+    }
+
+    public void augmenterTempsEtage(){
+        tempsTransport += Constantes.tempsPourBougerLaCabineDUnEtage;
+    }
+
+    public void augmenterTempsEtageFinal(){
+        tempsTransport += Constantes.tempsPourEntrerOuSortirDeLaCabine;
+    }
 }

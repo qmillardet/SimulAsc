@@ -20,10 +20,5 @@ public class EvenementPassageCabinePalier extends Evenement {
     	cabine.etage = etage;
 
     	cabine.calculerMouvement(date, echeancier);
-    	immeuble.augmenterCumulTempsDeTransportDesPersonnesDansLaCabine(cabine.nbPassager()
-        );
-	
-        assert !cabine.porteOuverte;
     }
-
 }

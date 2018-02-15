@@ -1,1 +1,4 @@
 *.class
+output*
+.output*
+excluded

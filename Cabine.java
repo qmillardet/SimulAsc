@@ -52,22 +52,23 @@ public class Cabine extends Constantes {
     public void appeler(Etage e, long date, Echeancier echeancier) {
 
         destinations.add(e);
-        if (status == '-')
             calculerMouvement(date, echeancier);
     }
 
     public void calculerMouvement(long date, Echeancier echeancier) {
 
         if (destinations.isEmpty()) {
-            status = '-';
+            //status = '-';
         } else {
             if (destinations.contains(etage)) {
                 destinations.remove(etage);
                 // Ouverture porte cabine
                 echeancier.ajouter(new EvenementOuverturePorteCabine(date + Constantes.tempsPourOuvrirOuFermerLesPortes));
-                this.liberePersonneCabine();
+                this.liberePersonneCabine(date);
+                this.augmenterTempsChaquePassagerOuverturePorte();
             } else {
                 status = destinations.peek().numero() > etage.numero() ? '^' : 'v';
+                this.augmenterTempsChaquePassagerEtage();
                 echeancier.ajouter(new EvenementPassageCabinePalier(date + Constantes.tempsPourBougerLaCabineDUnEtage, etage.immeuble().etage(etage.numero() + (status == '^' ? 1 : -1))));
             }
         }
@@ -88,7 +89,7 @@ public class Cabine extends Constantes {
         return false;
     }
 
-    public void liberePersonneCabine() {
+    public void liberePersonneCabine(long date) {
         for (int i = 0; i < this.tableauPassager.length; i++) {
             Passager p = this.tableauPassager[i];
             try {
@@ -96,6 +97,8 @@ public class Cabine extends Constantes {
                     this.tableauPassager[i] = null;
                     etage.immeuble().ajouterUnPassagerSorti();
                     this.nbPassager--;
+                    p.augmenterTempsEtageFinal();
+                    this.etage.immeuble().cumulDesTempsDeTransport += p.tempsTransport;
                 }
             } catch (Exception e) {
             }
@@ -106,4 +109,23 @@ public class Cabine extends Constantes {
         return this.nbPassager;
     }
 
+    public void augmenterTempsChaquePassagerEtage(){
+        if (this.nbPassager() != 0){
+            for(int i=0; i<this.tableauPassager.length; i++){
+                if (this.tableauPassager[i] != null) {
+                    this.tableauPassager[i].augmenterTempsEtage();
+                }
+            }
+        }
+    }
+
+    public void augmenterTempsChaquePassagerOuverturePorte(){
+        if (this.nbPassager() != 0){
+            for(int i=0; i<this.tableauPassager.length; i++){
+                if (this.tableauPassager[i] != null) {
+                    this.tableauPassager[i].augmenterTempsArretEtageSansDescendre();
+                }
+            }
+        }
+    }
 }
