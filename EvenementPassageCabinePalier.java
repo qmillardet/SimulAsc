@@ -11,14 +11,13 @@ public class EvenementPassageCabinePalier extends Evenement {
     }
 
     public void afficheDetails(Immeuble immeuble) {
-        System.out.print("PCP");
+        System.out.print("PCP ");
         System.out.print(etage.numero());
     }
     
     public void traiter(Immeuble immeuble, Echeancier echeancier) {
         Cabine cabine = immeuble.cabine;
     	cabine.etage = etage;
-
     	cabine.calculerMouvement(date, echeancier);
     }
 }
