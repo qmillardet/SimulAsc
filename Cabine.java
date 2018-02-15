@@ -85,6 +85,7 @@ public class Cabine extends Constantes {
             this.tableauPassager[i] = p;
             this.destinations.add(p.etageDestination());
             this.nbPassager++;
+            this.changerStatus(destinations.peek().numero() > etage.numero() ? '^' : 'v');
             return true;
         }
         return false;
