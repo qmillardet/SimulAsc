@@ -18,7 +18,7 @@ public class EvenementOuverturePorteCabine extends Evenement {
 		cabine.porteOuverte = true;
 		Passager p = cabine.etage.reucpererPremierPassage();
 		if (p != null) {
-			cabine.ajouterPersonneCabinne(p, echeancier);
+			cabine.ajouterPersonneCabinne(p, echeancier, date);
 			etage.supprimerPassagerEtage(p);
 		}
 		cabine.liberePersonneCabine(date);
