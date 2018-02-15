@@ -11,7 +11,7 @@ public class EvenementPassageCabinePalier extends Evenement {
     }
 
     public void afficheDetails(Immeuble immeuble) {
-        System.out.print("PCP ");
+        System.out.print("PCP");
         System.out.print(etage.numero());
     }
     

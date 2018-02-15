@@ -52,13 +52,14 @@ public class Cabine extends Constantes {
     public void appeler(Etage e, long date, Echeancier echeancier) {
 
         destinations.add(e);
-            calculerMouvement(date, echeancier);
+        if(status == '-')
+           	calculerMouvement(date, echeancier);
     }
 
     public void calculerMouvement(long date, Echeancier echeancier) {
 
         if (destinations.isEmpty()) {
-            //status = '-';
+            status = '-';
         } else {
             if (destinations.contains(etage)) {
                 destinations.remove(etage);
