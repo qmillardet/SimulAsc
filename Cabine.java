@@ -50,12 +50,11 @@ public class Cabine extends Constantes {
     }
     
     public void appeler(Etage e, long date, Echeancier echeancier) {
-        
         destinations.add(e);
         if(status == '-')
             calculerMouvement(date, echeancier);
     }
-    
+
     public void calculerMouvement(long date, Echeancier echeancier) {
         
         if (destinations.isEmpty()) {
@@ -72,7 +71,7 @@ public class Cabine extends Constantes {
         }
     }
     
-    public boolean ajouterPersonneCabinne(Passager p, Echeancier echeancier, long date) {
+    public int ajouterPersonneCabinne(Passager p) {
         assert p != null : "Passager entrant null";
         int i = 0;
         while (this.tableauPassager[i] != null && i < this.tableauPassager.length) {
@@ -82,12 +81,18 @@ public class Cabine extends Constantes {
             if ((Constantes.isModeParfait() && status == p.sens() || this.destinations.isEmpty() && !etage.memeSens(this)) || !Constantes.isModeParfait()) {
                 this.tableauPassager[i] = p;
                 this.destinations.add(p.etageDestination());
+                this.destinations.remove(this.etage);
                 this.nbPassager++;
                 this.changerStatus(destinations.peek().numero() > etage.numero() ? '^' : 'v');
-                return true;
+                return 0;
+            }
+            else{
+                return 1;
             }
         }
-        return false;
+        else {
+            return 2;
+        }
     }
     
     public void liberePersonneCabine(long date) {
@@ -95,10 +100,10 @@ public class Cabine extends Constantes {
             Passager p = this.tableauPassager[i];
             try {
                 if (p.etageDestination() == etage) {
-                        this.tableauPassager[i] = null;
-                        etage.immeuble().ajouterUnPassagerSorti();
-                        this.nbPassager--;
-                        this.etage.immeuble().cumulDesTempsDeTransport += p.tempstransport(date);
+                    this.tableauPassager[i] = null;
+                    etage.immeuble().ajouterUnPassagerSorti();
+                    this.nbPassager--;
+                    this.etage.immeuble().cumulDesTempsDeTransport += p.tempstransport(date);
                 }
             } catch (Exception e) {}
         }
@@ -106,5 +111,18 @@ public class Cabine extends Constantes {
     
     public int nbPassager() {
         return this.nbPassager;
+    }
+
+    public boolean passagersArrivesADestination(){
+        boolean b = true;
+        Passager p;
+        for (int i = 0; i<this.tableauPassager.length && b;i++){
+            if ( (p = this.tableauPassager[i]) != null){
+                if(p.etageDestination() != etage){
+                    b = false;
+                }
+            }
+        }
+        return b;
     }
 }

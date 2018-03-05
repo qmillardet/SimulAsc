@@ -17,13 +17,13 @@ public class EvenementArriveePassagerPalier extends Evenement {
     }
 
     public void traiter(Immeuble immeuble, Echeancier echeancier) {
-		assert etageDeDepart != null;
-		assert immeuble.etage(etageDeDepart.numero()) == etageDeDepart;
+			assert etageDeDepart != null;
+			assert immeuble.etage(etageDeDepart.numero()) == etageDeDepart;
 		Passager p = new Passager (date, etageDeDepart, immeuble);
-		
+
 		immeuble.cabine.appeler(etageDeDepart, date, echeancier);
 		echeancier.ajouter(new EvenementArriveePassagerPalier(this.date + this.etageDeDepart.arriveeSuivant(), this.etageDeDepart));
 		this.etageDeDepart.ajouter(p);
-    }
+}
     
 }
