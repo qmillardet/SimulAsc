@@ -19,15 +19,29 @@ public class EvenementOuverturePorteCabine extends Evenement {
         cabine.porteOuverte = true;
         ArrayList<Passager> lp = cabine.etage.passagers();
         Passager p;
-        for(int i = 0; i<lp.size(); i++) {
+        int i = 0;
+        int nbpass = 0;
+        nbpass += cabine.liberePersonneCabine(date);
+        while (i < lp.size()) {
             p = lp.get(i);
             if (p != null) {
                 int b = cabine.ajouterPersonneCabinne(p);
-                if (b == 0) etage.supprimerPassagerEtage(p);
+                if (b == 0) {
+                    etage.supprimerPassagerEtage(p);
+                    nbpass ++;
+                }
+                else {
+                    i++;
+                }
             }
+            
         }
-        cabine.liberePersonneCabine(date);
-        echeancier.ajouter(new EvenementFermeturePorteCabine(date + Constantes.tempsPourOuvrirOuFermerLesPortes + Constantes.tempsPourEntrerOuSortirDeLaCabine));
+        if (nbpass != 0) {
+            echeancier.ajouter(new EvenementFermeturePorteCabine(date + Constantes.tempsPourOuvrirOuFermerLesPortes + Constantes.tempsPourEntrerOuSortirDeLaCabine * nbpass));
+        }
+        else{
+            echeancier.ajouter(new EvenementFermeturePorteCabine(date + Constantes.tempsPourOuvrirOuFermerLesPortes));
+        }
     }
     
 }

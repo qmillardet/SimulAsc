@@ -1,0 +1,1713 @@
+Quel mode de simulation voulez-vous ?
+(1) parfait 
+(2) infernal
+----- Etat actuel du simulateur (nombre total de pas = 0, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3 C  [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : 
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: -
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echeancier = [39,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 1, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3 C  [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #1:0^2:39
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echeancier = [45,PCP 2],[89,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 2, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2 C  [] : 
+ 1    [] : 
+ 0    [] : #1:0^2:39
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echeancier = [51,PCP 1],[89,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 3, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1 C  [] : 
+ 0    [] : #1:0^2:39
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echeancier = [57,PCP 0],[89,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 4, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #1:0^2:39
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echeancier = [62,OPC],[89,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 5, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: 
+-1    [] : 
+Contenu de la cabine: #1:0^2:39 
+Status de la cabine: ^
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echeancier = [71,FPC],[89,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 6, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : 
+-1    [] : 
+Contenu de la cabine: #1:0^2:39 
+Status de la cabine: ^
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echeancier = [77,PCP 1],[89,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 7, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1 C  [] : 
+ 0    [] : 
+-1    [] : 
+Contenu de la cabine: #1:0^2:39 
+Status de la cabine: ^
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echeancier = [83,PCP 2],[89,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 8, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2 C  [] : 
+ 1    [] : 
+ 0    [] : 
+-1    [] : 
+Contenu de la cabine: #1:0^2:39 
+Status de la cabine: ^
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echeancier = [88,OPC],[89,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 9, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2 C [  ]: 
+ 1    [] : 
+ 0    [] : 
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [89,APP 0],[97,FPC],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 10, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2 C [  ]: 
+ 1    [] : 
+ 0    [] : #2:0^5:89
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [97,FPC],[125,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 11, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2 C  [] : 
+ 1    [] : 
+ 0    [] : #2:0^5:89
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [103,PCP 1],[125,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 12, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1 C  [] : 
+ 0    [] : #2:0^5:89
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [109,PCP 0],[125,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 13, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #2:0^5:89
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [114,OPC],[125,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 14, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: 
+-1    [] : 
+Contenu de la cabine: #2:0^5:89 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [123,FPC],[125,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 15, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : 
+-1    [] : 
+Contenu de la cabine: #2:0^5:89 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [125,APP 0],[129,PCP 1],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 16, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #3:0^7:125
+-1    [] : 
+Contenu de la cabine: #2:0^5:89 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [129,PCP 1],[158,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 17, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1 C  [] : 
+ 0    [] : #3:0^7:125
+-1    [] : 
+Contenu de la cabine: #2:0^5:89 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [135,PCP 2],[158,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 18, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2 C  [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125
+-1    [] : 
+Contenu de la cabine: #2:0^5:89 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [141,PCP 3],[158,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 19, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3 C  [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125
+-1    [] : 
+Contenu de la cabine: #2:0^5:89 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [147,PCP 4],[158,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 20, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4 C  [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125
+-1    [] : 
+Contenu de la cabine: #2:0^5:89 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [153,PCP 5],[158,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 21, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5 C  [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125
+-1    [] : 
+Contenu de la cabine: #2:0^5:89 
+Status de la cabine: ^
+Cumul des temps de transport: 49
+Nombre total des passagers sortis: 1
+Ratio cumul temps / nb passagers : 49
+Echeancier = [158,OPC],[158,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 22, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5 C [  ]: 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [158,APP 0],[167,FPC],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 23, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5 C [  ]: 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125, #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [167,FPC],[218,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 24, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5 C  [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125, #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [173,PCP 4],[218,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 25, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4 C  [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125, #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [179,PCP 3],[218,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 26, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3 C  [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125, #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [185,PCP 2],[218,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 27, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2 C  [] : 
+ 1    [] : 
+ 0    [] : #3:0^7:125, #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [191,PCP 1],[218,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 28, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1 C  [] : 
+ 0    [] : #3:0^7:125, #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [197,PCP 0],[218,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 29, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #3:0^7:125, #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [202,OPC],[218,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 30, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #3:0^7:125, #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [211,FPC],[218,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 31, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #3:0^7:125, #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [216,OPC],[218,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 32, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #4:0v-1:158
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [218,APP 0],[225,FPC],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 33, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #4:0v-1:158, #5:0^7:218
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [225,FPC],[253,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 34, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #4:0v-1:158, #5:0^7:218
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [230,OPC],[253,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 35, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #4:0v-1:158, #5:0^7:218
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [239,FPC],[253,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 36, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #4:0v-1:158, #5:0^7:218
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [245,PCP 1],[253,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 37, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1 C  [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [251,PCP 2],[253,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 38, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2 C  [] : 
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [253,APP 0],[257,PCP 3],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 39, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3    [] : 
+ 2 C  [] : 
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [257,PCP 3],[273,APP 4],[273,APP 2],[293,APP 0],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 40, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : 
+ 3 C  [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [263,PCP 4],[273,APP 4],[273,APP 2],[293,APP 0],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 41, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4 C  [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [269,PCP 5],[273,APP 4],[273,APP 2],[293,APP 0],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 42, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5 C  [] : 
+ 4    [] : 
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [273,APP 4],[273,APP 2],[275,PCP 6],[293,APP 0],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 43, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5 C  [] : 
+ 4    [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : 
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [273,APP 2],[275,PCP 6],[293,APP 0],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7],[600,APP 4]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 44, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5 C  [] : 
+ 4    [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [275,PCP 6],[293,APP 0],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7],[600,APP 4],[609,APP 2]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 45, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6 C  [] : 
+ 5    [] : 
+ 4    [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [281,PCP 7],[293,APP 0],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7],[600,APP 4],[609,APP 2]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 46, assert on ) -----
+Immeuble (mode parfait):
+ 7 C  [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253
+-1    [] : 
+Contenu de la cabine: #3:0^7:125 
+Status de la cabine: ^
+Cumul des temps de transport: 118
+Nombre total des passagers sortis: 2
+Ratio cumul temps / nb passagers : 59
+Echeancier = [286,OPC],[293,APP 0],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7],[600,APP 4],[609,APP 2]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 47, assert on ) -----
+Immeuble (mode parfait):
+ 7 C [  ]: 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: ^
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [293,APP 0],[295,FPC],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7],[600,APP 4],[609,APP 2]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 48, assert on ) -----
+Immeuble (mode parfait):
+ 7 C [  ]: 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: ^
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [295,FPC],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 49, assert on ) -----
+Immeuble (mode parfait):
+ 7 C  [] : 
+ 6    [] : 
+ 5    [] : 
+ 4    [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [301,PCP 6],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 50, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6 C  [] : 
+ 5    [] : 
+ 4    [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [307,PCP 5],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 51, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5 C  [] : 
+ 4    [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [313,PCP 4],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 52, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : 
+ 4 C  [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [313,APP 5],[318,OPC],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 53, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : #10:5v0:313
+ 4 C  [] : #7:4v0:273
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : 
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [318,OPC],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 54, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : #10:5v0:313
+ 4 C [  ]: 
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : 
+Contenu de la cabine: #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [318,APP -1],[321,APP 1],[326,APP 6],[327,FPC],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 55, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : #10:5v0:313
+ 4 C [  ]: 
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [321,APP 1],[326,APP 6],[327,FPC],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5],[638,APP -1]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 56, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : 
+ 5    [] : #10:5v0:313
+ 4 C [  ]: 
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [326,APP 6],[327,FPC],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 57, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4 C [  ]: 
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [327,FPC],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[660,APP 6]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 58, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4 C  [] : 
+ 3    [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [333,PCP 3],[333,APP 3],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[660,APP 6]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 59, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3 C  [] : 
+ 2    [] : #8:2v0:273
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [333,APP 3],[339,PCP 2],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[660,APP 6]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 60, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3 C  [] : #14:3v0:333
+ 2    [] : #8:2v0:273
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [339,PCP 2],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 61, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2 C  [] : #8:2v0:273
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [344,OPC],[345,APP 0],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 62, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2 C [  ]: 
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #8:2v0:273 #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [345,APP 0],[353,FPC],[353,APP 7],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 63, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2 C [  ]: 
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #8:2v0:273 #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [353,FPC],[353,APP 7],[380,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 64, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : 
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2 C  [] : 
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #8:2v0:273 #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [353,APP 7],[359,PCP 1],[380,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 65, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2 C  [] : 
+ 1    [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #8:2v0:273 #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [359,PCP 1],[380,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 66, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1 C  [] : #12:1v0:321
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #8:2v0:273 #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [364,OPC],[380,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 67, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1 C [  ]: 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #12:1v0:321 #8:2v0:273 #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [373,FPC],[380,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 68, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1 C  [] : 
+ 0    [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #12:1v0:321 #8:2v0:273 #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [379,PCP 0],[380,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 69, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #12:1v0:321 #8:2v0:273 #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [380,APP 0],[384,OPC],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 70, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345, #17:0^4:380
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #12:1v0:321 #8:2v0:273 #7:4v0:273 
+Status de la cabine: v
+Cumul des temps de transport: 279
+Nombre total des passagers sortis: 3
+Ratio cumul temps / nb passagers : 93
+Echeancier = [384,OPC],[412,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 71, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345, #17:0^4:380
+-1    [] : #11:-1^0:318
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [393,FPC],[412,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 72, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #4:0v-1:158, #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345, #17:0^4:380
+-1    [] : #11:-1^0:318
+Contenu de la cabine: 
+Status de la cabine: v
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [398,OPC],[412,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 73, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345, #17:0^4:380
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [407,FPC],[412,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 74, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #5:0^7:218, #6:0^6:253, #9:0v-1:293, #15:0^2:345, #17:0^4:380
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [412,OPC],[412,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 75, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #6:0^6:253, #9:0v-1:293, #15:0^2:345, #17:0^4:380
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [412,APP 0],[421,FPC],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 76, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #6:0^6:253, #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [421,FPC],[443,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 77, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #6:0^6:253, #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [426,OPC],[443,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 78, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [435,FPC],[443,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 79, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [440,OPC],[443,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 80, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [443,APP 0],[449,FPC],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 81, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [449,FPC],[475,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 82, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [454,OPC],[475,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 83, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [463,FPC],[475,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 84, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [468,OPC],[475,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 85, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [475,APP 0],[477,FPC],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 86, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443, #20:0v-1:475
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [477,FPC],[528,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 87, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443, #20:0v-1:475
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [482,OPC],[528,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 88, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443, #20:0v-1:475
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [491,FPC],[528,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 89, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443, #20:0v-1:475
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [496,OPC],[528,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 90, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443, #20:0v-1:475
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [505,FPC],[528,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 91, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443, #20:0v-1:475
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [510,OPC],[528,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 92, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C [  ]: #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443, #20:0v-1:475
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [519,FPC],[528,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 93, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1    [] : 
+ 0 C  [] : #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443, #20:0v-1:475
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [525,PCP 1],[528,APP 0],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
+----- Etat actuel du simulateur (nombre total de pas = 94, assert on ) -----
+Immeuble (mode parfait):
+ 7    [] : #16:7v0:353
+ 6    [] : #13:6v0:326
+ 5    [] : #10:5v0:313
+ 4    [] : 
+ 3    [] : #14:3v0:333
+ 2    [] : 
+ 1 C  [] : 
+ 0    [] : #9:0v-1:293, #15:0^2:345, #17:0^4:380, #18:0v-1:412, #19:0^7:443, #20:0v-1:475
+-1    [] : #11:-1^0:318
+Contenu de la cabine: #6:0^6:253 #5:0^7:218 #4:0v-1:158 
+Status de la cabine: ^
+Cumul des temps de transport: 564
+Nombre total des passagers sortis: 6
+Ratio cumul temps / nb passagers : 94
+Echeancier = [528,APP 0],[531,PCP 2],[600,APP 4],[609,APP 2],[620,APP 5],[627,APP 1],[638,APP -1],[654,APP 3],[660,APP 6],[671,APP 7]
+Taper "Enter" ou le nombre de pas de simulation que vous voulez faire
